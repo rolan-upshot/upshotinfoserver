@@ -19,5 +19,5 @@ from upshotinfo.views import get_directory
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('directory/', get_directory )
+    path('api/directory/', get_directory )
 ]
