@@ -6,9 +6,12 @@ import json
 
 @csrf_exempt
 def get_directory(request):
-    directory = [{"dev.test": "18.138.8.34"},
-                 {"internal.test": ""},
-                 {"external.test": ""}]
+    directory = [{"key": "dev.test",
+                  "server": "18.138.8.34"},
+                 {"Key": "internal.test",
+                  "server":  " "},
+                 {"key": "external.test",
+                  "server": " "}]
     return JsonResponse({"status": "ok", "result": json.dumps(directory)})
     pass
 
