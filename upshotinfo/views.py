@@ -8,7 +8,7 @@ import json
 def get_directory(request):
     directory = [{"key": "dev.test",
                   "server": "18.138.8.34"},
-                 {"Key": "internal.test",
+                 {"key": "internal.test",
                   "server":  " "},
                  {"key": "external.test",
                   "server": " "}]
