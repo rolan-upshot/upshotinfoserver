@@ -9,7 +9,7 @@ def get_directory(request):
     directory = [{"key": "dev.test",
                   "server": "18.138.8.34"},
                  {"key": "internal.test",
-                  "server":  " "},
+                  "server":  "54.179.124.22"},
                  {"key": "external.test",
                   "server": " "}]
     return JsonResponse({"status": "ok", "result": json.dumps(directory)})
