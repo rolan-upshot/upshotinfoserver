@@ -12,6 +12,6 @@ def get_directory(request):
                   "server":  "54.179.124.22"},
                  {"key": "external.test",
                   "server": " "}]
-    return JsonResponse({"status": "ok", "result": json.dumps(directory)})
+    return JsonResponse({"status": "ok", "result": directory})
     pass
 
