@@ -11,7 +11,9 @@ def get_directory(request):
                  {"key": "internal.test",
                   "server":  "54.179.124.22"},
                  {"key": "ext.test",
-                  "server": "18.142.65.252"}]
+                  "server": "18.142.65.252"},
+                 {"key": "demo",
+                  "server": "13.250.99.218"}]
     return JsonResponse({"status": "ok", "result": directory})
     pass
 
