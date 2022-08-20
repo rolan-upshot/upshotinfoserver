@@ -10,6 +10,8 @@ def get_directory(request):
                   "server": "18.138.8.34"},
                  {"key": "internal.test",
                   "server":  "54.179.124.22"},
+                 {"key": "upshot.global",
+                  "server":  "54.179.124.22"},
                  {"key": "e.test",
                   "server": "18.142.65.252"},
                  {"key": "demo.test",
