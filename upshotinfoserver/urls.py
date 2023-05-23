@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from upshotinfo.views import get_directory
+from upshotinfo.views import get_directory, find_server_for_mobile
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/directory/', get_directory )
+    path('api/directory/', get_directory),
+    path('api/find_server_for_mobile', find_server_for_mobile)
 ]
